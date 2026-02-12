@@ -15,7 +15,8 @@
       "Bash(./software_benchmark_unopt.exe:*)",
       "Bash(./benchmark_detailed.exe:*)",
       "Bash(tee:*)",
-      "Bash(python frost_simulation.py:*)"
+      "Bash(python frost_simulation.py:*)",
+      "Bash(test:*)"
     ]
   }
 }
