@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(choco install:*)",
+      "Bash(winget install:*)",
+      "Bash(pacman -Sy:*)",
+      "Bash(curl:*)",
+      "Bash(ls:*)",
+      "Bash(powershell.exe -Command \"Remove-Item -Path ''C:\\\\ProgramData\\\\chocolatey\\\\lib\\\\f71b9ac6a3c2c0b35a83a36ef5342311575e7574'' -Force -ErrorAction SilentlyContinue; Remove-Item -Path ''C:\\\\ProgramData\\\\chocolatey\\\\lib\\\\iverilog'' -Recurse -Force -ErrorAction SilentlyContinue\")",
+      "Bash(iverilog:*)",
+      "Bash(make:*)",
+      "Bash(vvp:*)",
+      "Bash(g++:*)",
+      "Bash(./software_benchmark.exe:*)",
+      "Bash(./software_benchmark_unopt.exe:*)",
+      "Bash(./benchmark_detailed.exe:*)"
+    ]
+  }
+}
